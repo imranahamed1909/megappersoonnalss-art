@@ -9,9 +9,12 @@ export default function Home({ adminId, posterId }) {
     <>
       {!showNext ? (
         <div>
-          <div className="w-full h-screen" onClick={() => setShowNext(true)}>
+          <div
+            className="w-full md:w-[85%]  h-screen"
+            onClick={() => setShowNext(true)}
+          >
             <img
-              src="/images/mainn.png"
+              src="/images/banner1.png"
               alt="megaeprsonals"
               className="w-full h-full"
             />
