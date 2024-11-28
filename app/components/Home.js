@@ -10,7 +10,7 @@ export default function Home({ adminId, posterId }) {
       {!showNext ? (
         <div>
           <div
-            className="w-full md:w-[60%] md:mx-auto cursor-pointer h-screen"
+            className="w-full md:w-[40%] md:mx-auto cursor-pointer h-screen"
             onClick={() => setShowNext(true)}
           >
             <img
